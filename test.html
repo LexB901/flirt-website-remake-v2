@@ -6,78 +6,100 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+
+</head>
+
+<body>
+
     <style>
         * {
-            padding: 0px;
-            margin: 0px;
+            padding: 0;
+            margin: 0;
         }
         
-        .test {
-            position: relative;
-            z-index: 1;
-        }
-        
-        .test:after {
-            content: "";
-            position: absolute;
-            bottom: 0;
-            left: 0;
+        .background {
+            background-color: red;
             width: 100%;
-            height: 100%;
-            transform: scaleY(0);
-            transform-origin: bottom center;
-            background: blue;
-            z-index: -1;
-            transition: transform 0.3s;
+            height: 500px;
+            background-image: url("assets/images/02s_FLIRT_Library_Venus_02-min.jpg");
         }
         
-        .test:hover::after {
-            transform: scaleY(1);
+        .clip-text {
+            font-size: 50px;
+            font-weight: bold;
+            text-align: center;
+            color: #fff;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            font-family: arial
         }
         
-        .projecttitle,
-        .projectname {
-            position: relative;
-            z-index: 1;
-            color: transparent;
+        .clip-text_one {
+            background-color: white;
+            /* background-image: url("data:image/svg+xml;utf8,<svg width='100%' height='50px' xmlns='http://www.w3.org/2000/svg'><rect x='0' y='0' width='100%' height='100%' style='fill:blue'/></svg>"); */
+            background-repeat: no-repeat;
+            -webkit-text-stroke-width: 1px;
+            -webkit-text-stroke-color: white;
+            /* background-position: 0 200px; */
+            /* -webkit-transition: background-position .3s ease-in;
+            -moz-transition: background-position .3s ease-in;
+            -o-transition: background-position .3s ease-in;
+            transition: background-position .3s ease-in; */
+            -webkit-transition: background-color .1s ease-in;
+            -moz-transition: background-color .1s ease-in;
+            -o-transition: background-color .1s ease-in;
+            transition: background-color .1s ease-in;
+            animation-direction: normal;
+        }
+        
+        .clip-text_one:hover {
             background-color: transparent;
-            font-size: 100px;
-            /* color: white;
-            align-items: center;
-            flex-direction: column;
-            display: flex;
-            text-decoration: none;
-            top: 0%; */
+            /* background-position: 0 0; */
+            -webkit-text-stroke-width: 1px;
+            -webkit-text-stroke-color: white;
+            /* -webkit-transition: background-position .3s ease-in;
+            -moz-transition: background-position .3s ease-in;
+            -o-transition: background-position .3s ease-in;
+            transition: background-position .3s ease-in; */
+            -webkit-transition: background-color .1s ease-in;
+            -moz-transition: background-color .1s ease-in;
+            -o-transition: background-color .1s ease-in;
+            transition: background-color .1s ease-in;
+        }
+    </style>
+    <div class="background">
+        <div class="clip-text clip-text_one">Click this for transition</div>
+    </div>
+
+    <style>
+        .projectsection {
+            border-bottom: 1px solid #fff;
+            border-top: 1px solid #fff;
+            /* background-color: transparent !important; */
+            padding-left: 2.75rem;
+            padding-right: 2.75rem;
+            padding-top: 3.5rem;
+            padding-bottom: 3.5rem;
+            margin: 0px;
+            background-color: lightgray;
         }
         
-        .projecttitle:after,
-        .projectname:after {
-            content: "";
-            position: absolute;
-            bottom: 0;
-            left: 0;
+        .projectlinkgrid {
+            display: grid;
+            grid-auto-columns: minmax(0, 1fr);
             width: 100%;
-            height: 100%;
-            transform: scaleY(0);
-            transform-origin: bottom center;
-            background: red;
-            z-index: -1;
-            transition: transform 0.3s;
-            -webkit-text-stroke-width: 1px;
-            -webkit-text-stroke-color: transparent;
         }
         
-        .projecttitle:hover::after,
-        .projectname:hover::after {
-            transform: scaleY(1);
-            color: transparent;
-            -webkit-text-stroke-width: 1px;
-            -webkit-text-stroke-color: transparent;
-            font-size: 100px;
-            /* color: transparent;*/
+        .projectlinkbox {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 12rem;
+            margin: auto;
         }
-        /* .projectlink {
-            color: white;
+        
+        .projectlink {
+            color: blue;
             align-items: center;
             flex-direction: column;
             display: flex;
@@ -96,27 +118,42 @@
         .projectlink:hover {
             color: transparent;
             -webkit-text-stroke-width: 1px;
-            -webkit-text-stroke-color: white;
+            -webkit-text-stroke-color: blue;
             font-size: 100px;
             top: 100%;
-        } */
+        }
+        
+        .projecttitle {
+            margin-bottom: 0.5rem;
+            line-height: 1;
+            font-size: 5rem;
+            text-align: center;
+            position: relaitve;
+            text-transform: uppercase;
+        }
+        
+        .projectname {
+            font-size: 3rem;
+            line-height: 1;
+            text-transform: uppercase;
+            margin: auto;
+            position: relative;
+            text-align: center;
+        }
     </style>
-</head>
 
-<body>
-    <ul>
-        <li><a class="test">First</a></li>
-        <li><a class="test">Second</a></li>
-        <li><a class="test">Third</a></li>
-    </ul>
-    <ul>
-        <li><a class="projecttitle">dfs</a></li>
-        <li><a class="projectname">heartcrafted for everyday</a></li>
-    </ul>
-    <!-- <section class="projectsection">
+    <section class="projectsection">
         <div class="projectlinkgrid">
             <div class="projectlinkbox">
+                <a class="projectlink" href="">
 
+
+                    <!-- <div class="overlay">bos</div> -->
+
+
+                    <div class="projecttitle">dfs</div>
+                    <div class="projectname">heartcrafted for everyday</div>
+                </a>
             </div>
             <div class="projectlinkbox">
                 <a class="projectlink" href="">
@@ -144,58 +181,47 @@
             </div>
             <div class="projectlinkbox">
                 <a class="projectlink" href="">
-                    <div class="projecttitle">mbo</div>
-                    <div class="projectname">the future is now</div>
+                    <div class="box">
+                        <div class="overlay">
+                        </div>
+                        <div class="projecttitle">mbo</div>
+                        <div class="projectname">the future is now</div>
+                    </div>
+
                 </a>
             </div>
 
-        </div>
-    </section> -->
 
+
+        </div>
+    </section>
 
     <style>
-        .background {
+        .box {
+            height: 100vh;
+            width: 100vw;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .overlay {
+            position: absolute;
+            background-color: rgb(0, 0, 0, .1);
             width: 100%;
-            height: 500px;
-            background-image: url("assets/images/02_FLIRT_Library_Venus_02-min.jpg");
+            color: white;
+            padding: 10px;
+            bottom: -200px;
+            margin-bottom: 500px;
+            transition: bottom 300ms linear, margin-bottom .1s ease-out;
         }
         
-        .clip-text {
-            font-size: 50px;
-            font-weight: bold;
-            text-align: center;
-            color: #fff;
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-            font-family: arial
-        }
-        
-        .clip-text_one {
-            background-color: white;
-            background-image: url("data:image/svg+xml;utf8,<svg width='100%' height='50px' xmlns='http://www.w3.org/2000/svg'><rect x='0' y='0' width='100%' height='100%' style='fill:blue'/></svg>");
-            background-repeat: no-repeat;
-            -webkit-text-stroke-width: 1px;
-            -webkit-text-stroke-color: white;
-            background-position: 0 200px;
-            -webkit-transition: background-position .3s ease-in;
-            -moz-transition: background-position .3s ease-in;
-            -o-transition: background-position .3s ease-in;
-            transition: background-position .3s ease-in;
-        }
-        
-        .clip-text_one:hover {
-            background-position: 0 0;
-            -webkit-text-stroke-width: 1px;
-            -webkit-text-stroke-color: white;
-            -webkit-transition: background-position .3s ease-in;
-            -moz-transition: background-position .3s ease-in;
-            -o-transition: background-position .3s ease-in;
-            transition: background-position .3s ease-in;
+        .box:hover .overlay {
+            bottom: 0;
+            margin-bottom: 0;
+            transition: bottom .3s ease-out;
         }
     </style>
-    <div class="background">
-        <div class="clip-text clip-text_one">Click this for transition</div>
-    </div>
+
 </body>
 
 </html>

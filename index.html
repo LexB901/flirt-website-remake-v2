@@ -381,10 +381,53 @@
         <section class="videopreview">
 
         </section>
+        <style>
+            .box {
+                height: 100px;
+                width: 250px;
+                background-image: url("assets/images/02_FLIRT_Library_Venus_02-min.jpg");
+                position: relative;
+                overflow: hidden;
+            }
+            
+            .overlay {
+                position: absolute;
+                background-color: rgba(0, 0, 0, 0.5);
+                width: 100%;
+                color: white;
+                padding: 10px;
+                bottom: -200px;
+                margin-bottom: 500px;
+                transition: bottom 300ms linear, margin-bottom 300ms ease-out;
+            }
+            
+            .projectlinkbox:hover .overlay {
+                bottom: 0;
+                margin-bottom: 0;
+                transition: bottom .3s ease-out;
+            }
+            
+            .projectlinkbox:nth-child(1) {
+                display: none;
+                background-image: url("assets/images/02_FLIRT_Library_Venus_02-min.jpg");
+            }
+            
+            .projectlinkbox:nth-child(1):hover {
+                display: block;
+                background-image: url("assets/images/02_FLIRT_Library_Venus_02-min.jpg");
+                -webkit-transition: all 1s ease;
+                transition: all 1s ease;
+            }
+        </style>
         <section class="projectsection">
             <div class="projectlinkgrid">
                 <div class="projectlinkbox">
                     <a class="projectlink" href="">
+
+
+                        <!-- <div class="overlay">bos</div> -->
+
+
                         <div class="projecttitle">dfs</div>
                         <div class="projectname">heartcrafted for everyday</div>
                     </a>
