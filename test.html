@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            padding: 0px;
+            margin: 0px;
+        }
+        
+        .test {
+            position: relative;
+            z-index: 1;
+        }
+        
+        .test:after {
+            content: "";
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            transform: scaleY(0);
+            transform-origin: bottom center;
+            background: blue;
+            z-index: -1;
+            transition: transform 0.3s;
+        }
+        
+        .test:hover::after {
+            transform: scaleY(1);
+        }
+        
+        .projecttitle,
+        .projectname {
+            position: relative;
+            z-index: 1;
+            color: transparent;
+            background-color: transparent;
+            font-size: 100px;
+            /* color: white;
+            align-items: center;
+            flex-direction: column;
+            display: flex;
+            text-decoration: none;
+            top: 0%; */
+        }
+        
+        .projecttitle:after,
+        .projectname:after {
+            content: "";
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            transform: scaleY(0);
+            transform-origin: bottom center;
+            background: red;
+            z-index: -1;
+            transition: transform 0.3s;
+            -webkit-text-stroke-width: 1px;
+            -webkit-text-stroke-color: transparent;
+        }
+        
+        .projecttitle:hover::after,
+        .projectname:hover::after {
+            transform: scaleY(1);
+            color: transparent;
+            -webkit-text-stroke-width: 1px;
+            -webkit-text-stroke-color: transparent;
+            font-size: 100px;
+            /* color: transparent;*/
+        }
+        /* .projectlink {
+            color: white;
+            align-items: center;
+            flex-direction: column;
+            display: flex;
+            text-decoration: none;
+            background-color: transparent;
+            top: 0%;
+        }
+        
+        .projectlink:after {
+            content: "";
+            position: absolute;
+            bottom: 0px;
+            transition: color background-color .2s ease-in;
+        }
+        
+        .projectlink:hover {
+            color: transparent;
+            -webkit-text-stroke-width: 1px;
+            -webkit-text-stroke-color: white;
+            font-size: 100px;
+            top: 100%;
+        } */
+    </style>
+</head>
+
+<body>
+    <ul>
+        <li><a class="test">First</a></li>
+        <li><a class="test">Second</a></li>
+        <li><a class="test">Third</a></li>
+    </ul>
+    <ul>
+        <li><a class="projecttitle">dfs</a></li>
+        <li><a class="projectname">heartcrafted for everyday</a></li>
+    </ul>
+    <!-- <section class="projectsection">
+        <div class="projectlinkgrid">
+            <div class="projectlinkbox">
+
+            </div>
+            <div class="projectlinkbox">
+                <a class="projectlink" href="">
+                    <div class="projecttitle">o'neill</div>
+                    <div class="projectname">summer is a moment</div>
+                </a>
+            </div>
+            <div class="projectlinkbox">
+                <a class="projectlink" href="">
+                    <div class="projecttitle">aventus</div>
+                    <div class="projectname">shape the world</div>
+                </a>
+            </div>
+            <div class="projectlinkbox">
+                <a class="projectlink" href="">
+                    <div class="projecttitle">roc</div>
+                    <div class="projectname">experiment</div>
+                </a>
+            </div>
+            <div class="projectlinkbox">
+                <a class="projectlink" href="">
+                    <div class="projecttitle">it's perfect</div>
+                    <div class="projectname">fashion is our code</div>
+                </a>
+            </div>
+            <div class="projectlinkbox">
+                <a class="projectlink" href="">
+                    <div class="projecttitle">mbo</div>
+                    <div class="projectname">the future is now</div>
+                </a>
+            </div>
+
+        </div>
+    </section> -->
+
+
+    <style>
+        .background {
+            width: 100%;
+            height: 500px;
+            background-image: url("assets/images/02_FLIRT_Library_Venus_02-min.jpg");
+        }
+        
+        .clip-text {
+            font-size: 50px;
+            font-weight: bold;
+            text-align: center;
+            color: #fff;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            font-family: arial
+        }
+        
+        .clip-text_one {
+            background-color: white;
+            background-image: url("data:image/svg+xml;utf8,<svg width='100%' height='50px' xmlns='http://www.w3.org/2000/svg'><rect x='0' y='0' width='100%' height='100%' style='fill:blue'/></svg>");
+            background-repeat: no-repeat;
+            -webkit-text-stroke-width: 1px;
+            -webkit-text-stroke-color: white;
+            background-position: 0 200px;
+            -webkit-transition: background-position .3s ease-in;
+            -moz-transition: background-position .3s ease-in;
+            -o-transition: background-position .3s ease-in;
+            transition: background-position .3s ease-in;
+        }
+        
+        .clip-text_one:hover {
+            background-position: 0 0;
+            -webkit-text-stroke-width: 1px;
+            -webkit-text-stroke-color: white;
+            -webkit-transition: background-position .3s ease-in;
+            -moz-transition: background-position .3s ease-in;
+            -o-transition: background-position .3s ease-in;
+            transition: background-position .3s ease-in;
+        }
+    </style>
+    <div class="background">
+        <div class="clip-text clip-text_one">Click this for transition</div>
+    </div>
+</body>
+
+</html>
