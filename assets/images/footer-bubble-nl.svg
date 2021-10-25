@@ -1,0 +1,97 @@
+<svg id="Laag_1" data-name="Laag 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="697" height="855.61" viewBox="0 0 697 855.61">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: url(#Naamloos_verloop_11);
+      }
+
+      .cls-2 {
+        font-size: 60px;
+        fill: #fff;
+        font-family: LouizeDisplay-Italic, Louize Display;
+        font-style: italic;
+      }
+
+      .cls-3, .cls-4 {
+        fill: none;
+        stroke: #fff;
+        stroke-miterlimit: 10;
+        stroke-width: 3px;
+      }
+
+      .cls-3 {
+        stroke-linecap: square;
+      }
+    </style>
+    <radialGradient id="Naamloos_verloop_11" data-name="Naamloos verloop 11" cx="690" cy="406" r="265.38" gradientTransform="translate(-486.45 -141.58) scale(1.21)" gradientUnits="userSpaceOnUse">
+      <stop offset="0.49" stop-color="#f0f" stop-opacity="0.97"/>
+      <stop offset="0.55" stop-color="#fe01fa" stop-opacity="0.97"/>
+      <stop offset="0.62" stop-color="#fd02ec" stop-opacity="0.97"/>
+      <stop offset="0.7" stop-color="#fa06d4" stop-opacity="0.98"/>
+      <stop offset="0.78" stop-color="#f70ab2" stop-opacity="0.98"/>
+      <stop offset="0.86" stop-color="#f20f87" stop-opacity="0.99"/>
+      <stop offset="0.95" stop-color="#ec1653" stop-opacity="0.99"/>
+      <stop offset="1" stop-color="#e81b2d"/>
+    </radialGradient>
+  </defs>
+  <g>
+    <circle class="cls-1" cx="348.5" cy="348.5" r="348.5"/>
+    <text x="-341.5" y="-56.5"/>    <g>
+      <text class="cls-2" transform="translate(111.56 288.62) rotate(-60.38) scale(0.9 1)">D</text>
+      <text class="cls-2" transform="matrix(0.52, -0.73, 0.82, 0.58, 129.26, 258.02)">u</text>
+      <text class="cls-2" transform="matrix(0.57, -0.69, 0.77, 0.63, 142.57, 239.32)">r</text>
+      <text class="cls-2" transform="translate(153.86 225.58) rotate(-47.64) scale(0.9 1)">f</text>
+      <text class="cls-2" transform="translate(162.4 216.24) rotate(-45.21) scale(0.9 1)"> </text>
+      <text class="cls-2" transform="translate(169.8 208.53) rotate(-41.86) scale(0.9 1)">a</text>
+      <text class="cls-2" transform="matrix(0.7, -0.56, 0.62, 0.78, 185.78, 194.4)">l</text>
+      <text class="cls-2" transform="translate(193.94 187.35) rotate(-33.77) scale(0.9 1)">m</text>
+      <text class="cls-2" transform="translate(220.07 170.12) rotate(-27.87) scale(0.9 1)">a</text>
+      <text class="cls-2" transform="translate(238.82 160.28) rotate(-23.55) scale(0.9 1)">c</text>
+      <text class="cls-2" transform="translate(253.49 153.74) rotate(-19.12) scale(0.9 1)">h</text>
+      <text class="cls-2" transform="translate(273.79 146.85) rotate(-15.09) scale(0.9 1)">t</text>
+      <text class="cls-2" transform="matrix(0.88, -0.19, 0.21, 0.98, 285.82, 143.61)">i</text>
+      <text class="cls-2" transform="matrix(0.89, -0.13, 0.15, 0.99, 296.46, 141.12)">g</text>
+      <text class="cls-2" transform="matrix(0.89, -0.06, 0.07, 1, 316.31, 138.21)">e</text>
+      <text class="cls-2" transform="translate(332.51 137.13) rotate(-1.04) scale(0.9 1)"> </text>
+      <text class="cls-2" transform="matrix(0.9, 0.05, -0.05, 1, 343.1, 136.73)">d</text>
+      <text class="cls-2" transform="translate(365.35 138.1) rotate(7.09) scale(0.9 1)">i</text>
+      <text class="cls-2" transform="translate(376.16 139.21) rotate(11.13) scale(0.9 1)">n</text>
+      <text class="cls-2" transform="translate(397.98 143.52) rotate(16.22) scale(0.9 1)">g</text>
+      <text class="cls-2" transform="translate(417.27 149.18) rotate(20.54) scale(0.9 1)">e</text>
+      <text class="cls-2" transform="translate(432.31 154.65) rotate(25.04) scale(0.9 1)">n</text>
+      <text class="cls-2" transform="translate(452.56 164.31) rotate(28.85) scale(0.9 1)"> </text>
+      <text class="cls-2" transform="translate(462.04 169.43) rotate(31.91) scale(0.9 1)">e</text>
+      <text class="cls-2" transform="translate(475.71 177.78) rotate(36.17) scale(0.9 1)">n</text>
+      <text class="cls-2" transform="translate(493.76 191.18) rotate(39.77) scale(0.9 1)"> </text>
+      <text class="cls-2" transform="translate(502.14 198.16) rotate(42.02) scale(0.9 1)">j</text>
+      <text class="cls-2" transform="translate(509.74 204.83) rotate(45.05) scale(0.9 1)">o</text>
+      <text class="cls-2" transform="matrix(0.6, 0.67, -0.74, 0.67, 522.98, 218.22)">i</text>
+      <text class="cls-2" transform="translate(530.44 226.26) rotate(51.51) scale(0.9 1)">n</text>
+      <text class="cls-2" transform="translate(544.34 244) rotate(54.81) scale(0.9 1)"> </text>
+      <text class="cls-2" transform="matrix(0.47, 0.76, -0.85, 0.53, 550.68, 252.66)">u</text>
+      <text class="cls-2" transform="translate(562.73 272.26) rotate(61.67) scale(0.9 1)">s</text>
+      <path class="cls-3" d="M458.5,348.5c10.35-21.89,39.06-74.91,101-112,18.79-11.24,68.85-40.27,138-36,75.21,4.64,124.29,45.62,139.84,59a251.44,251.44,0,0,1,63.07,83" transform="translate(-341.5 -56.5)"/>
+    </g>
+    <g>
+      <text class="cls-2" transform="translate(206.26 323.94) rotate(-47.05) scale(0.9 1)">M</text>
+      <text class="cls-2" transform="matrix(0.71, -0.54, 0.6, 0.8, 235.07, 294.07)">a</text>
+      <text class="cls-2" transform="translate(251.94 281.51) rotate(-31.93) scale(0.9 1)">i</text>
+      <text class="cls-2" transform="translate(261.17 275.73) rotate(-28.2) scale(0.9 1)">l</text>
+      <text class="cls-2" transform="translate(270.78 270.55) rotate(-24.43) scale(0.9 1)"> </text>
+      <text class="cls-2" transform="translate(280.14 266.05) rotate(-19.31) scale(0.9 1)">o</text>
+      <text class="cls-2" transform="matrix(0.88, -0.19, 0.21, 0.98, 297.16, 259.88)">n</text>
+      <text class="cls-2" transform="translate(318.69 255.46) rotate(-5.57) scale(0.9 1)">s</text>
+      <text class="cls-2" transform="translate(332.54 254.14) rotate(-1.13) scale(0.9 1)"> </text>
+      <text class="cls-2" transform="translate(343.17 253.92) rotate(2.61) scale(0.9 1)">j</text>
+      <text class="cls-2" transform="translate(353 254.21) rotate(7.31) scale(0.9 1)">e</text>
+      <text class="cls-2" transform="translate(368.78 256.31) rotate(12.13) scale(0.9 1)"> </text>
+      <text class="cls-2" transform="translate(378.78 257.76) rotate(19.31) scale(0.9 1)">w</text>
+      <text class="cls-2" transform="translate(406.42 267.86) rotate(27.23) scale(0.9 1)">e</text>
+      <text class="cls-2" transform="translate(420.44 274.81) rotate(33.66) scale(0.9 1)">n</text>
+      <text class="cls-2" transform="matrix(0.69, 0.57, -0.64, 0.77, 438.74, 287.2)">s</text>
+      <text class="cls-2" transform="matrix(0.64, 0.63, -0.7, 0.72, 449.47, 295.97)">e</text>
+      <text class="cls-2" transform="translate(460.9 306.83) rotate(50.17) scale(0.9 1)">n</text>
+      <path class="cls-4" d="M552.38,385.5c33.24-48.35,88.88-75.39,145.21-70,69.11,6.61,107.25,59,112.91,67" transform="translate(-341.5 -56.5)"/>
+    </g>
+  </g>
+</svg>
