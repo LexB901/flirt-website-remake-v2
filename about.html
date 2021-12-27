@@ -7,6 +7,76 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="/img/flirtgradient.png">
     <link rel="stylesheet" href="style.css">
+
+    <style>
+        .head-title {
+            font-size: 10rem;
+            line-height: 1;
+            margin-bottom: 2.5rem;
+            font-weight: 200;
+        }
+        
+        .filosofiesection {
+            padding-left: 9rem;
+            padding-right: 9rem;
+            padding-top: 3.5rem;
+            padding-bottom: 3.5rem;
+            text-align: center;
+        }
+        
+        .head2-title {
+            font-size: 2.5rem;
+            line-height: 2.5rem;
+            margin-bottom: 2.5rem;
+        }
+        
+        .filosofie-box {
+            flex-direction: row;
+            width: 100%;
+            display: flex;
+        }
+        
+        .inner-box1 {
+            width: 50%;
+            position: relative;
+        }
+        
+        .inner-box2 {
+            width: 50%;
+            position: relative;
+        }
+        
+        .filosofie-h3 {
+            font-size: 5rem;
+            line-height: 1;
+            margin-top: 0px;
+            margin-bottom: 1.5rem;
+        }
+        
+        .filosofie-h4 {
+            font-size: 2.25rem;
+            line-height: 2.5rem;
+            margin-bottom: 1.5rem;
+            margin: 0;
+        }
+        
+        .filosofie-p {
+            font-size: 1.875rem;
+            line-height: 2.25rem;
+            margin-bottom: 1rem;
+            margin: 0;
+        }
+        
+        .commandmentssection {
+            background: linear-gradient(160deg, #ff262e, #f0f);
+            padding-left: 2.75rem;
+            padding-right: 2.75rem;
+            text-align: center;
+            padding-top: 3rem;
+            padding-bottom: 3rem;
+        }
+    </style>
+
 </head>
 
 <body>
@@ -74,97 +144,105 @@
         </label>
     </div>
 
-
-    <header class="header" id="header">
-        <div class="divheader">
-            <div class="positioning" id="img-follow">
-                <div class="follow" id="follow"><img class="img" src="https://www.flirtcreativity.com/_nuxt/img/9ab3ad0.png" alt="stacked image">
-                </div>
-                <div class="follow" id="follow"><img class="img" src="https://www.flirtcreativity.com/_nuxt/img/748d4a0.png" alt="stacked image">
-                </div>
-                <div class="follow" id="follow"><img class="img" src="https://www.flirtcreativity.com/_nuxt/img/c0cd792.png" alt="stacked image">
-                </div>
-                <div class="follow" id="follow"><img class="img" src="https://www.flirtcreativity.com/_nuxt/img/7e180e7.png" alt="stacked image">
-                </div>
-                <div class="follow" id="follow"><img class="img" src="https://www.flirtcreativity.com/_nuxt/img/a8f1c19.png" alt="stacked image">
-                </div>
-                <div class="follow" id="follow"><img class="img" src="https://www.flirtcreativity.com/_nuxt/img/966c457.png" alt="stacked image">
-                </div>
-            </div>
-            <a href="#culture" class="flex">
-                <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 1196.389 488.887" fill="#000" id="logo" class="logo">
-                    <path id="Path_1"
-                          data-name="Path 1"
-                          d="M897.25,0V103H903.8v-.009c0-.018,2.891-21.623,7.845-37.71h-.009C923.254,30.764,939.8,15.629,952.369,9.018h0a35.887,35.887,0,0,1,5.307-2.248v.009A54.583,54.583,0,0,1,974.7,3.9c8.506.273,40,3.984,40,44.083h0V440.9h-.018c0,40.592-32.306,43.9-40.328,44.092,0,0-16.2-.071-18.238-.141-4.636-.247-11.257-.917-16.545-2.768v.009a36.681,36.681,0,0,1-5.306-2.248h0c-7.113-3.737-15.487-10.208-23.535-21.358-7.484-12.156-11.847-27.626-15.294-40.874C879.885,357.793,874.719,293.868,853.088,236c-5.677-15.179-12.076-29.671-22.7-42.108-15.6-18.3-43.1-21.129-65.908-21.561,6.4.123,21.411-4.258,27.07-7.043,29.08-14.289,60.17-31.2,74.335-62.021,13.513-29.4,12.4-59.35-14.306-81.211-1.957-1.6-3.993-3.094-6.082-4.513C828.9,6.232,807.022.353,781.661,0H487.97V3.9l1.789-.009c7.916.194,39.5,3.447,40.284,42.611.009.441.026.864.026,1.313V441.022c-.07,40.469-19,43.765-27.009,43.959h-3.332c-7.986-.194-26.709-3.482-27-43.554v-55.56h-6.787c0,.071-3.041,21.693-7.387,36.361-11.636,35.5-28.454,50.923-41.192,57.622h0a35.875,35.875,0,0,1-5.306,2.248v-.009c-7.008,2.451-16.387,2.838-20.336,2.891h-4.548c-7.986-.194-40.063-3.482-40.31-43.624V47.979h0c0-40.592,32.306-43.9,40.328-44.092l1.789.009V0H0V3.9l1.789-.009c8,.194,40.231,3.491,40.319,43.924V194.419c-37.578-.035-35.444-28.075-35.471-38.538H.062v42.108l42.047.335V441.11c-.115,40.4-32.315,43.686-40.319,43.88L0,484.982v3.9H143.064v-3.9l-1.789.009c-8-.194-40.2-3.491-40.319-43.889V198.315h10.3c40.592,0,41.236,32.306,41.43,40.328l-.009,1.789h6.558V194.419H100.956V47.979h0c0-40.592,32.306-43.9,40.328-44.092h8.409c3.94.053,13.319.441,20.336,2.891V6.77a36.687,36.687,0,0,1,5.307,2.248h0c12.605,6.629,29.2,21.825,40.821,56.529C221.066,81.607,223.9,103,223.9,103h6.549V47.441c.291-40.072,19.014-43.36,27-43.554H261c8,.194,26.92,3.491,27.009,43.924V440.89h-.123c0,40.592-32.306,43.9-40.328,44.092l-1.789-.009v3.9H631.016v-3.9l-1.789.009c-8.013-.194-40.257-3.491-40.319-43.968V47.979h0c0-40.592,32.306-43.9,40.328-44.092h3.543c8,.194,40.231,3.491,40.319,43.924v397.8c.423,38.688,30.552,42.875,39.57,43.263l61.386.009v-3.9l-1.789.009c-7.986-.194-40.028-3.482-40.31-43.563V180.254h0a6.161,6.161,0,0,1,2.362-5.069.958.958,0,0,1,.1-.07.009.009,0,0,0,.009-.009,7.037,7.037,0,0,1,.978-.573c3.852-1.613,10.146-1.269,16.9-.961,7.766.538,13.954,1.869,18.485,4.354,23.342,12.834,31.5,47.459,36.282,71.929,4.187,21.482,3.887,42.743,4.8,64.533,1.666,39.825,2.988,79.078,21.878,115.077,8.321,15.849,19.137,30.64,33.558,41.456a97.444,97.444,0,0,0,14.509,9.009,88.773,88.773,0,0,0,12.085,5.042c9.344,3.085,19.163,3.676,28.965,3.887l192.78.018v-3.9l-1.789.009c-7.96-.194-39.817-3.464-40.3-43.193V47.979h0c0-40.125,31.548-43.81,40.019-44.083a54.5,54.5,0,0,1,17.066,2.882V6.77a36.685,36.685,0,0,1,5.306,2.248h0c12.605,6.629,33.743,21.817,46.049,56.512C1186.913,81.6,1189.84,103,1189.84,103h6.549V0ZM748.4,168.9a77.085,77.085,0,0,1-13.425.591c-2.019-.106-3.023-.793-3.023-2.433h0V47.979h0c0-40.592,32.306-43.9,40.328-44.092h3.429c5.174.123,20.468,1.551,30.658,13.469,3.623,4.381,8.921,13.108,9.582,27.308.053,1.075.08,2.168.08,3.3,0,78.716-28.269,105.5-48.235,115.439l-.115.018a109.4,109.4,0,0,1-12.032,4.213Z">
-                    </path>
-                </svg>
-            </a>
-        </div>
-    </header>
-    <main>
-        <section class="textsection" id="culture">
-            <h1 class="big-title">Worship Culture, <br>Sacrifice Mediocrity</h1>
-            <p class="text">We zijn een full-service creatief bureau waarin cultuur, verhalen en de mens centraal staan. Deze elementen zijn wat ons voortbeweegt; ze zijn onze drive.</p>
-            <p class="text">We bieden verschillende services aan, van branding en design tot advertising, filmproductie, digital, en business development. Ons multiculturele team combineert creativiteit met innovatieve strategieën en relevante insights om zo het hoogst
-                haalbare te realiseren voor zowel kleine bedrijven als grote, internationale merken.</p>
-            <p class="text">Mensen horen feiten, maar voelen verhalen. Dit is de voornaamste reden waarom wij geen ‘standaard’ reclame maken.</p>
-            <p class="text">WIJ ZIJN FLIRT.<br> WELKOM IN ONZE WERELD.</p>
-            <p class="text">Wij houden van klanten die vol passie werken aan hun merk en van talent dat naar een creatieve, inspirerende omgeving zoekt. Laten we samenwerken.</p>
-            <p class="link">neem contact op <br>en mail ons je wens.</p>
+    <div>
+        <section style="padding-bottom: 5rem;border-bottom: 1px solid black;" class="textsection">
+            <h1 class="head-title">
+                OVER ONS
+            </h1>
+            <p class="text">
+                We zijn jong, we zijn oud; we zijn klein, we denken groot. Je kunt ons zien als het engeltje op je rechterschouder en het duiveltje op je linker. We dagen je uit, om jezelf uit te blijven dagen.
+                <p style="margin-bottom: 1.5rem;" class="text">
+                    We zijn veel, maar niet standaard. Wil je onze waarheid horen? Het is de creatieve ambitie die merken transformeert tot iets groters, waardoor ze het verschil kunnen maken.
+                </p>
+                <div class="link"><a href="mailto:eyecontact@flirtcreativity.com" style="color:black;">join us</a><br> <a href="mailto:eyecontact@flirtcreativity.com" style="color:black;">mail ons je wens</a></div>
         </section>
-        <section class="videopreview">
-
-        </section>
-        <section class="projectsection">
-            <div class="projectlinkgrid">
-                <div class="nummer1">
-                    <div class="projectlinkbox">
-                        <a class="projectlink" href="">
-                            <div class="projecttitle">dfs</div>
-                            <div class="projectname">heartcrafted for everyday</div>
-                            <div class="nummer1"></div>
-                        </a>
-                    </div>
-                </div>
-                <div class="projectlinkbox">
-                    <a class="projectlink" href="">
-                        <div class="projecttitle">o'neill</div>
-                        <div class="projectname">summer is a moment</div>
-                    </a>
-                </div>
-                <div class="projectlinkbox">
-                    <a class="projectlink" href="">
-                        <div class="projecttitle">aventus</div>
-                        <div class="projectname">shape the world</div>
-                    </a>
-                </div>
-                <div class="projectlinkbox">
-                    <a class="projectlink" href="">
-                        <div class="projecttitle">roc</div>
-                        <div class="projectname">experiment</div>
-                    </a>
-                </div>
-                <div class="projectlinkbox">
-                    <a class="projectlink" href="">
-                        <div class="projecttitle">it's perfect</div>
-                        <div class="projectname">fashion is our code</div>
-                    </a>
-                </div>
-                <div class="projectlinkbox">
-                    <a class="projectlink" href="">
-                        <div class="projecttitle">mbo</div>
-                        <div class="projectname">the future is now</div>
-                    </a>
+        <section style="padding-bottom: 5rem;border-bottom: 1px solid black;" class="filosofiesection">
+            <h2 class="head-title">
+                ONZE<br> FILOSOFIE </h2>
+            <h4 class="head2-title">HOOFDSTUK 1</h4>
+            <div class="filosofie-box">
+                <div class="inner-box1"><img style="display:block;" src="https://www.flirtcreativity.com/_nuxt/img/390cdb4.png" alt="the act of revelation" class="scroll-index floating" style="transition: transform 0.1s ease-out 0s; transform: translateY(0px);"></div>
+                <div class="inner-box2">
+                    <h3 class="filosofie-h3">THE ACT OF <br> REVELATION</h3>
+                    <h4 class="filosofie-h4">SPANNING</h4>
+                    <p class="filosofie-p">Met onze ogen op trends en onze harten op cultureel gedrag, wortelen we onze ideeën op authentieke inzichten die het publiek aanspreken en uitdagen met relevante oplossingen.</p><br>
+                    <p class="filosofie-p">Onze campagnes worden bijna altijd gevormd door een reactie op culturele spanningen.</p>
                 </div>
             </div>
         </section>
-        <section class="footersection">
-            <p class="text">Uitdagingen en samenwerking komen niet alleen van binnenuit - we houden van klanten die gepassioneerd zijn over hun producten, klanten en van talent dat op zoek is naar een creatieve en inspirerende omgeving. Let’s get in touch and let's flirt.
-            </p>
-            <p class="italictitle">GET IN TOUCH AND LET'S FLIRT.</p>
-            <img class="mailcontact" src="https://www.flirtcreativity.com/_nuxt/img/66572cf.svg" alt="">
+        <section style="padding-bottom: 5rem;border-bottom: 1px solid black;" class="filosofiesection">
+            <h4 class="head2-title">HOOFDSTUK 2</h4>
+            <div class="filosofie-box">
+                <div class="inner-box2">
+                    <h3 class="filosofie-h3">THE ACT OF <br> TEMPTATION</h3>
+                    <h4 class="filosofie-h4">VERLEIDING</h4>
+                    <p class="filosofie-p">Verhalen vertellen op alle niveaus maakt deel uit van ons creatief flirtgedrag. Door middel van woorden, gedachten en beelden proberen we de kijker te verleiden door een emotionele band te creëren met onze merken en campagnes.
+                    </p><br>
+                    <p class="filosofie-p">Onze campagnes worden bijna altijd gevormd door een reactie op culturele spanningen.</p>
+                </div>
+                <div class="inner-box1"><img style="display:block;margin-left: auto;" src="https://www.flirtcreativity.com/_nuxt/img/e13ac1d.png" alt="the act of revelation" class="scroll-index floating" style="transition: transform 0.1s ease-out 0s; transform: translateY(0px);"></div>
+            </div>
         </section>
-    </main>
+        <section style="padding-bottom: 5rem;border-bottom: 1px solid black;" class="filosofiesection">
+            <h4 class="head2-title">HOOFDSTUK 3</h4>
+            <div class="filosofie-box">
+                <div class="inner-box1"><img style="display:block;" src="https://www.flirtcreativity.com/_nuxt/img/32c6c92.png"></div>
+                <div class="inner-box2">
+                    <h3 class="filosofie-h3">THE ACT OF <br> REVELATION</h3>
+                    <h4 class="filosofie-h4">SPANNING</h4>
+                    <p class="filosofie-p">Met onze ogen op trends en onze harten op cultureel gedrag, wortelen we onze ideeën op authentieke inzichten die het publiek aanspreken en uitdagen met relevante oplossingen.</p><br>
+                    <p class="filosofie-p">Onze campagnes worden bijna altijd gevormd door een reactie op culturele spanningen.</p>
+                </div>
+            </div>
+        </section>
+        <section class="commandmentssection">
+            <h2 class="
+                text-4xl
+                md:text-7xl
+                lg:text-10xl
+                leading-none
+                mb-10
+                italic
+                break-words
+              ">OUR 10 CREATIVE <br> COMMANDMENTS</h2>
+            <div class="px-4">
+                <ul class="text-3xl lg:text-7xl text-center">
+                    <li class="mb-10 color-section">
+                        1. THOU SHALT FLIRT WITH THE POWER OF CREATIVITY.
+                    </li>
+                    <li class="mb-10 color-section">
+                        2. THOU SHALT ENCOURAGE IDEAS FROM ANY
+                        <a id="spotify-link" href="https://open.spotify.com/playlist/0yGv9qD2xoMiM6v6ZwCR7x?si=_7jWJFYZRT-OpE5lxw8_QA" target="_blank" rel="noopener" class="inline-block relative"><img src="/_nuxt/img/7497b69.jpg" alt="Spotify playlist"><span data-v-1b311bf5="">SOURCE</span></a>.
+                    </li>
+                    <li class="mb-10 color-section">
+                        3. THOU SHALT NOT TAKE FALSE INSIGHTS AS DEVINE TRUTH.
+                    </li>
+                    <li class="mb-10 color-section">
+                        4. THOU SHALT KEEP HOLY THE IMPORTANCE OF EFFECTIVENESS.
+                    </li>
+                    <li class="mb-10 color-section">
+                        5. THOU SHALT NOT BEAR WITNESS TO MAKING THE LOGO SMALLER.
+                    </li>
+                    <li class="mb-10 color-section">
+                        6. THE FAITHFUL ARE REQUIRED TO ENCOURAGE EQUALITY AMONGST ONLINE AND OFFLINE.
+                    </li>
+                    <li class="mb-10 color-section">
+                        7. THOU SHALT WORK WITHOUT FOUL INTENT OR POLITICS.
+                    </li>
+                    <li class="mb-10 color-section">
+                        8. THOU SHALT HONOUR INTEGRITY IN ALL THAT THY DO. ESPECIALLY TO BE THE PROVIDER OF THY ABUNDANCE.
+                    </li>
+                    <li class="mb-10 color-section">
+                        9. THOU SHALT NOT COVET THY CLOSEST COMPETITOR'S GOODS OR IDEAS.
+                    </li>
+                    <li class="mb-10 color-section">
+                        10. THOU SHALT FEEDBACK TO OTHERS AS YOU WOULD HAVE THEM FEEDBACK UNTO YOU.
+                    </li>
+                </ul>
+            </div>
+        </section>
+    </div>
+
     <footer class="footer">
 
     </footer>
